@@ -1,0 +1,31 @@
+{
+  "name": "mst-decorators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "mobx": "^4.3.0",
+    "mobx-state-tree": "^2.0.5"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "author": "Jan Kjærgaard <mig@jankjr.dk>",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": true
+          }
+        }
+      ]
+    ]
+  }
+}
